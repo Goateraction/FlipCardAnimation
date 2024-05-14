@@ -11,6 +11,10 @@
 		CFCB333B2BF3A4EE0033F68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB333A2BF3A4EE0033F68B /* ContentView.swift */; };
 		CFCB333D2BF3A4EF0033F68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCB333C2BF3A4EF0033F68B /* Assets.xcassets */; };
 		CFCB33402BF3A4EF0033F68B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCB333F2BF3A4EF0033F68B /* Preview Assets.xcassets */; };
+		CFCB33492BF3A50B0033F68B /* ButtonStyle_scaleBrightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB33472BF3A50B0033F68B /* ButtonStyle_scaleBrightness.swift */; };
+		CFCB334A2BF3A50B0033F68B /* FlipTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB33482BF3A50B0033F68B /* FlipTransition.swift */; };
+		CFCB334B2BF3A50B0033F68B /* VideoPlayerLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB33462BF3A50B0033F68B /* VideoPlayerLocal.swift */; };
+		CFCB334E2BF3A5A60033F68B /* backMV.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CFCB334D2BF3A5A60033F68B /* backMV.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CFCB333A2BF3A4EE0033F68B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFCB333C2BF3A4EF0033F68B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFCB333F2BF3A4EF0033F68B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFCB33462BF3A50B0033F68B /* VideoPlayerLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerLocal.swift; sourceTree = "<group>"; };
+		CFCB33472BF3A50B0033F68B /* ButtonStyle_scaleBrightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle_scaleBrightness.swift; sourceTree = "<group>"; };
+		CFCB33482BF3A50B0033F68B /* FlipTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTransition.swift; sourceTree = "<group>"; };
+		CFCB334D2BF3A5A60033F68B /* backMV.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backMV.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			children = (
 				CFCB33382BF3A4EE0033F68B /* FlipCardAnimationApp.swift */,
 				CFCB333A2BF3A4EE0033F68B /* ContentView.swift */,
+				CFCB33472BF3A50B0033F68B /* ButtonStyle_scaleBrightness.swift */,
+				CFCB33482BF3A50B0033F68B /* FlipTransition.swift */,
+				CFCB33462BF3A50B0033F68B /* VideoPlayerLocal.swift */,
 				CFCB333C2BF3A4EF0033F68B /* Assets.xcassets */,
+				CFCB334D2BF3A5A60033F68B /* backMV.mp4 */,
 				CFCB333E2BF3A4EF0033F68B /* Preview Content */,
 			);
 			path = FlipCardAnimation;
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCB334E2BF3A5A60033F68B /* backMV.mp4 in Resources */,
 				CFCB33402BF3A4EF0033F68B /* Preview Assets.xcassets in Resources */,
 				CFCB333D2BF3A4EF0033F68B /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFCB333B2BF3A4EE0033F68B /* ContentView.swift in Sources */,
+				CFCB334A2BF3A50B0033F68B /* FlipTransition.swift in Sources */,
+				CFCB33492BF3A50B0033F68B /* ButtonStyle_scaleBrightness.swift in Sources */,
 				CFCB33392BF3A4EE0033F68B /* FlipCardAnimationApp.swift in Sources */,
+				CFCB334B2BF3A50B0033F68B /* VideoPlayerLocal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

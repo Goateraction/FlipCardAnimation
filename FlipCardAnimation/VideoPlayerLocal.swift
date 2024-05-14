@@ -1,3 +1,13 @@
+//
+//  ContentView.swift
+//  FlipCardAnimation
+//
+//  Created by Goateraction on 5/14/24.
+//  Copyright © 2024 Goateraction. All rights reserved.
+//
+//  Github, Instagram, X
+//  -> @Goateraction
+//
 
 import SwiftUI
 import AVKit
