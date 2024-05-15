@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF7B20222BF4203B00729A5E /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B20212BF4203B00729A5E /* Burger.swift */; };
+		CF7B20242BF420D200729A5E /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7B20232BF420D200729A5E /* Earth.swift */; };
 		CFCB33392BF3A4EE0033F68B /* FlipCardAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB33382BF3A4EE0033F68B /* FlipCardAnimationApp.swift */; };
 		CFCB333B2BF3A4EE0033F68B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB333A2BF3A4EE0033F68B /* ContentView.swift */; };
 		CFCB333D2BF3A4EF0033F68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCB333C2BF3A4EF0033F68B /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF7B20212BF4203B00729A5E /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		CF7B20232BF420D200729A5E /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
 		CFCB33352BF3A4EE0033F68B /* FlipCardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipCardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCB33382BF3A4EE0033F68B /* FlipCardAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardAnimationApp.swift; sourceTree = "<group>"; };
 		CFCB333A2BF3A4EE0033F68B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				CFCB33382BF3A4EE0033F68B /* FlipCardAnimationApp.swift */,
 				CFCB333A2BF3A4EE0033F68B /* ContentView.swift */,
+				CF7B20212BF4203B00729A5E /* Burger.swift */,
+				CF7B20232BF420D200729A5E /* Earth.swift */,
 				CFCB33472BF3A50B0033F68B /* ButtonStyle_scaleBrightness.swift */,
 				CFCB33482BF3A50B0033F68B /* FlipTransition.swift */,
 				CFCB33462BF3A50B0033F68B /* VideoPlayerLocal.swift */,
@@ -154,7 +160,9 @@
 				CFCB334A2BF3A50B0033F68B /* FlipTransition.swift in Sources */,
 				CFCB33492BF3A50B0033F68B /* ButtonStyle_scaleBrightness.swift in Sources */,
 				CFCB33392BF3A4EE0033F68B /* FlipCardAnimationApp.swift in Sources */,
+				CF7B20222BF4203B00729A5E /* Burger.swift in Sources */,
 				CFCB334B2BF3A50B0033F68B /* VideoPlayerLocal.swift in Sources */,
+				CF7B20242BF420D200729A5E /* Earth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

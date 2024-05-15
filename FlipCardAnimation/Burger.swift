@@ -12,33 +12,25 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Burger: View {
     @State var flip : Bool = false
     
     var body: some View {
-        NavigationStack{
-            Button {
-                withAnimation(.bouncy) {
-                    flip.toggle()
-                }
-            } label: {
-                ZStack {
-                    if flip {
-                        backView()
-                            .transition(.reverseFlip)
-                    } else {
-                        frontView()
-                            .transition(.flip)
-                    }
-                }
-            }.buttonStyle(ButtonStyle_scale())
-            .navigationTitle("Flip Card Animation")
-            .toolbar {
-                ToolbarItem(placement: .bottomBar) {
-                    Text("@Goateraction").bold()
+        Button {
+            withAnimation(.bouncy) {
+                flip.toggle()
+            }
+        } label: {
+            ZStack {
+                if flip {
+                    backView()
+                        .transition(.reverseFlip)
+                } else {
+                    frontView()
+                        .transition(.flip)
                 }
             }
-        }
+        }.buttonStyle(ButtonStyle_scale())
     }
     
     @ViewBuilder
@@ -108,5 +100,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Burger()
 }
